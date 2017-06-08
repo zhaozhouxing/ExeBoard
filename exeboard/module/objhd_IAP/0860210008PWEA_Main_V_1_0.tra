@@ -1,0 +1,59 @@
+*** Creating Trace Output File '.\objhd_IAP\0860210008PWEA_Main_V_1_0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objhd_iap\app.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_it.o"'
+### List of Objects: adding '".\objhd_iap\config.o"'
+### List of Objects: adding '".\objhd_iap\relay.o"'
+### List of Objects: adding '".\objhd_iap\dica.o"'
+### List of Objects: adding '".\objhd_iap\beep.o"'
+### List of Objects: adding '".\objhd_iap\serial.o"'
+### List of Objects: adding '".\objhd_iap\uartcmd.o"'
+### List of Objects: adding '".\objhd_iap\at.o"'
+### List of Objects: adding '".\objhd_iap\sapp.o"'
+### List of Objects: adding '".\objhd_iap\printf.o"'
+### List of Objects: adding '".\objhd_iap\display.o"'
+### List of Objects: adding '".\objhd_iap\ad840x.o"'
+### List of Objects: adding '".\objhd_iap\cancmd.o"'
+### List of Objects: adding '".\objhd_iap\pca9502.o"'
+### List of Objects: adding '".\objhd_iap\adc.o"'
+### List of Objects: adding '".\objhd_iap\qmi.o"'
+### List of Objects: adding '".\objhd_iap\list.o"'
+### List of Objects: adding '".\objhd_iap\multiplex.o"'
+### List of Objects: adding '".\objhd_iap\valve.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_bkp.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_exti.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_gpio.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_pwr.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_rcc.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_spi.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_tim.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_rtc.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_flash.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_adc.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_can.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_dma.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_i2c.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\objhd_iap\stm32f10x_usart.o"'
+### List of Objects: adding '".\objhd_iap\misc.o"'
+### List of Objects: adding '".\objhd_iap\core_cm3.o"'
+### List of Objects: adding '".\objhd_iap\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\objhd_iap\system_stm32f10x.o"'
+### List of Objects: adding '".\libhd\0862100000STM32F103.lib"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\objhd_iap\app.o" ".\objhd_iap\stm32f10x_it.o" ".\objhd_iap\config.o" ".\objhd_iap\relay.o" ".\objhd_iap\dica.o" ".\objhd_iap\beep.o" ".\objhd_iap\serial.o" ".\objhd_iap\uartcmd.o" ".\objhd_iap\at.o" ".\objhd_iap\sapp.o" ".\objhd_iap\printf.o" ".\objhd_iap\display.o" ".\objhd_iap\ad840x.o" ".\objhd_iap\cancmd.o" ".\objhd_iap\pca9502.o" ".\objhd_iap\adc.o" ".\objhd_iap\qmi.o" ".\objhd_iap\list.o" ".\objhd_iap\multiplex.o" ".\objhd_iap\valve.o" ".\objhd_iap\stm32f10x_bkp.o" ".\objhd_iap\stm32f10x_exti.o" ".\objhd_iap\stm32f10x_gpio.o" ".\objhd_iap\stm32f10x_pwr.o" ".\objhd_iap\stm32f10x_rcc.o" ".\objhd_iap\stm32f10x_spi.o" ".\objhd_iap\stm32f10x_tim.o" ".\objhd_iap\stm32f10x_rtc.o" ".\objhd_iap\stm32f10x_flash.o" ".\objhd_iap\stm32f10x_adc.o" ".\objhd_iap\stm32f10x_can.o" ".\objhd_iap\stm32f10x_dma.o" ".\objhd_iap\stm32f10x_i2c.o" ".\objhd_iap\stm32f10x_iwdg.o" ".\objhd_iap\stm32f10x_usart.o" ".\objhd_iap\misc.o" ".\objhd_iap\core_cm3.o" ".\objhd_iap\startup_stm32f10x_hd.o" ".\objhd_iap\system_stm32f10x.o" D:\work\exeboard\module\libhd\0862100000STM32F103.lib 
+--library_type=microlib --strict --scatter ".\stm32f103_md.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\objhd_IAP\0860210008PWEA_Main_V_1_0.map" -o .\objhd_IAP\0860210008PWEA_Main_V_1_0.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\objhd_IAP\0860210008PWEA_Main_V_1_0.axf'
+### ADS-LD Command File: '.\objhd_IAP\0860210008PWEA_Main_V_1_0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\objhd_IAP\0860210008PWEA_Main_V_1_0.lnp', Handle=0x0000081C
+### Writing '.lnp' file
+### ADS-LD Command file '.\objhd_IAP\0860210008PWEA_Main_V_1_0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
